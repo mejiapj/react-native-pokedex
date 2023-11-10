@@ -1,9 +1,9 @@
-import React, { useState, useCallback } from "react";
-import { StyleSheet, View, Text, Button } from "react-native";
-import { useFocusEffect } from "@react-navigation/native";
-import { size } from "lodash";
-import useAuth from "../../hooks/useAuth";
-import { getPokemonsFavoriteApi } from "../../api/favorite";
+import React, { useState, useCallback } from 'react';
+import { StyleSheet, View, Text, Button } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
+import { size } from 'lodash';
+import useAuth from '../../hooks/useAuth';
+import { getPokemonsFavoriteApi } from '../../api/favorite';
 
 export default function UserData() {
   const { auth, logout } = useAuth();
@@ -61,20 +61,20 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   title: {
-    fontWeight: "bold",
+    fontWeight: 'bold',
     fontSize: 22,
   },
   dataContent: {
     marginBottom: 20,
   },
   itemMenu: {
-    flexDirection: "row",
+    flexDirection: 'row',
     paddingVertical: 20,
     borderBottomWidth: 1,
-    borderColor: "#CFCFCF",
+    borderColor: '#CFCFCF',
   },
   itemMenuTitle: {
-    fontWeight: "bold",
+    fontWeight: 'bold',
     paddingRight: 10,
     width: 120,
   },
@@ -82,3 +82,5 @@ const styles = StyleSheet.create({
     paddingTop: 20,
   },
 });
+
+////////////////////

@@ -1,4 +1,3 @@
-////
 import React from 'react';
 import {
   StyleSheet,
@@ -46,6 +45,7 @@ const styles = StyleSheet.create({
   },
   spinner: {
     marginTop: 20,
+
     marginBottom: Platform.OS === 'android' ? 90 : 60,
   },
 });

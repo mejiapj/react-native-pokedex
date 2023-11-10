@@ -57,5 +57,3 @@ export default function Pokemon(props) {
     </ScrollView>
   );
 }
-
-//////////////////

@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
-import FontAwesome from "react-native-vector-icons/FontAwesome";
+import React, { useState, useEffect } from 'react';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import {
   addPokemonFavoriteApi,
   isPokemonFavoriteApi,
   removePokemonFavoriteApi,
-} from "../../api/favorite";
+} from '../../api/favorite';
 
 export default function Favorite(props) {
   const { id } = props;

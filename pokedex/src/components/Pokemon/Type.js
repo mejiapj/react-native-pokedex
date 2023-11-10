@@ -1,7 +1,8 @@
-import React from "react";
-import { StyleSheet, View, Text } from "react-native";
-import { map, capitalize } from "lodash";
-import getColorByPokemonType from "../../utils/getColorByPokemonType";
+////////////////
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
+import { map, capitalize } from 'lodash';
+import getColorByPokemonType from '../../utils/getColorByPokemonType';
 
 export default function Type(props) {
   const { types } = props;
@@ -26,9 +27,9 @@ export default function Type(props) {
 const styles = StyleSheet.create({
   content: {
     marginTop: 50,
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   pill: {
     paddingHorizontal: 30,
@@ -37,3 +38,4 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
 });
+////////////////////////

@@ -1,6 +1,8 @@
-import React from "react";
-import { StyleSheet, View, Text, Button } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+///////////////////////
+
+import React from 'react';
+import { StyleSheet, View, Text, Button } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 export default function NoLogged() {
   const navigation = useNavigation();
@@ -12,7 +14,7 @@ export default function NoLogged() {
       </Text>
       <Button
         title="Ir al login"
-        onPress={() => navigation.navigate("Account")}
+        onPress={() => navigation.navigate('Account')}
       />
     </View>
   );
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   text: {
-    textAlign: "center",
+    textAlign: 'center',
     marginBottom: 10,
   },
 });

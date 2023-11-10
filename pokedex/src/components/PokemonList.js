@@ -6,6 +6,7 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
+
 import PokemonCard from './PokemonCard';
 
 export default function PokemonList(props) {

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   StyleSheet,
   View,
@@ -9,9 +8,7 @@ import {
 } from 'react-native';
 
 import { capitalize } from 'lodash';
-
 import { useNavigation } from '@react-navigation/native';
-
 import getColorByPokemonType from '../utils/getColorByPokemonType';
 
 export default function PokemonCard(props) {

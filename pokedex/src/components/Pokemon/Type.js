@@ -1,4 +1,3 @@
-////////////////
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { map, capitalize } from 'lodash';
@@ -38,4 +37,3 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
   },
 });
-////////////////////////

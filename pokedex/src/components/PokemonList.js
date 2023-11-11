@@ -5,7 +5,6 @@ import {
   ActivityIndicator,
   Platform,
 } from 'react-native';
-
 import PokemonCard from './PokemonCard';
 
 export default function PokemonList(props) {
@@ -45,7 +44,6 @@ const styles = StyleSheet.create({
   },
   spinner: {
     marginTop: 20,
-
     marginBottom: Platform.OS === 'android' ? 90 : 60,
   },
 });
